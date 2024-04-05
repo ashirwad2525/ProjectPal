@@ -1,0 +1,44 @@
+name: collab3
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  file_picker: ^6.2.0
+  filesystem_picker: ^4.1.0
+  open_file: ^3.3.2
+  url_launcher: ^6.2.5
+  video_player: ^2.2.12
+  table_calendar: ^3.1.0
+  google_nav_bar: ^5.0.6
+  pie_chart: ^5.1.0
+  provider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/splah_screen.mp4
+    - assets/loginpage.jpg
+    - assets/signin.jpg
+    - assets/bg_dashboard.jpg
+    - assets/blrcode1.jpg
+    - assets/blrbg2.jpg
+    - assets/lets.jpg
+    - assets/team.jpg
+    - assets/pro.jpg
+  uses-material-design: true
